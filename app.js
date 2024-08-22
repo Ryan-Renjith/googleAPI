@@ -65,8 +65,10 @@ async function main() {
   app.get('/oauth2callback', async (req, res) => {
     // Handle the OAuth 2.0 server response
     let q = url.parse(req.url, true).query;
+    console.log(q);
     let {code} = q;
     const { tokens } = await oauth2Client.getToken(code);
+    console.log(tokens);
     oauth2Client.setCredentials(tokens);
 
     // Create an OAuth2 client
