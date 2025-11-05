@@ -26,7 +26,7 @@ The summary must include:
 
 
 
-const GEMINI_API_KEY = "AIzaSyBk0SDAl_Y8NWrWMTj1wjUc_OvFwuRqyZY";
+const GEMINI_API_KEY = "";
 
 const ai = new GoogleGenAI({apiKey: GEMINI_API_KEY});
 

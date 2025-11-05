@@ -53,7 +53,7 @@ var path = require("path");
 var MODEL_NAME = 'gemini-2.5-flash';
 var PORT = 3000;
 var app = (0, express_1.default)();
-var GEMINI_API_KEY = "AIzaSyBk0SDAl_Y8NWrWMTj1wjUc_OvFwuRqyZY";
+var GEMINI_API_KEY = "";
 var ai = new genai_1.GoogleGenAI({ apiKey: GEMINI_API_KEY });
 /**
  * Uploads all PDFs, generates content, and cleans up the files.

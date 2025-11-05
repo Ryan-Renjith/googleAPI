@@ -2,7 +2,7 @@ import { GoogleGenAI } from '@google/genai';
 import * as fs from 'fs';
 import * as path from 'path';
 
-const GEMINI_API_KEY = "AIzaSyBk0SDAl_Y8NWrWMTj1wjUc_OvFwuRqyZY";
+const GEMINI_API_KEY = "";
 
 const ai = new GoogleGenAI({apiKey: GEMINI_API_KEY});
 

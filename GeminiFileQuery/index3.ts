@@ -9,7 +9,7 @@ const PORT = 3000;
 
 const app = express();
 
-const GEMINI_API_KEY = "AIzaSyBk0SDAl_Y8NWrWMTj1wjUc_OvFwuRqyZY";
+const GEMINI_API_KEY = "";
 
 const ai = new GoogleGenAI({apiKey: GEMINI_API_KEY});
 

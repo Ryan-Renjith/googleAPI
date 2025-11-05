@@ -60,7 +60,7 @@ var PDF_PATHS = [
 ];
 var PROMPT_TEXT = "\nYou have been provided with 6 different documents.\nPlease analyze all of them and provide a unified, structured summary in markdown format.\nThe summary must include:\n1. A **Consolidated Executive Summary** of the overall findings.\n2. A **Comparative Analysis** section highlighting the key differences and similarities across the reports.\n3. A list of **5 Actionable Recommendations** based on the collective data.\n";
 // ---------------------
-var GEMINI_API_KEY = "AIzaSyBk0SDAl_Y8NWrWMTj1wjUc_OvFwuRqyZY";
+var GEMINI_API_KEY = "";
 var ai = new genai_1.GoogleGenAI({ apiKey: GEMINI_API_KEY });
 /**
  * Uploads all PDFs, generates content, and cleans up the files.
